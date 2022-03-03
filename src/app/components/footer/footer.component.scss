@@ -1,0 +1,43 @@
+footer{
+    background-image: url("/assets/images/footer.jpg");
+    background-size: cover;
+    color: white;
+}
+img{
+    position: absolute;
+    padding: 110px;
+    width: 100px;
+    height: auto;
+}
+ul{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    list-style: none;
+    padding: 90px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+li{
+    float: right;
+    padding: 16px;
+}
+input{
+    margin-top: 13.5px;
+    border: none;
+    background-color: #ffffff00;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+    font-size: 12px;
+
+}
+input::placeholder{
+    color: white;
+}
+
+.copyright-block{
+    font-size: 11px;
+    text-align: center;
+    padding-bottom: 10px;
+}
