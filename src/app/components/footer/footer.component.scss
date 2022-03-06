@@ -23,6 +23,11 @@ li{
     float: right;
     padding: 16px;
 }
+
+li p{
+    line-height: 1.6;
+}
+
 input{
     margin-top: 13.5px;
     border: none;
@@ -41,4 +46,20 @@ input::placeholder{
     font-size: 11px;
     text-align: center;
     padding-bottom: 10px;
+}
+
+@media screen and (max-width: 970px) {
+    ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    img{
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    img{
+        padding: 50px;
+    }
 }

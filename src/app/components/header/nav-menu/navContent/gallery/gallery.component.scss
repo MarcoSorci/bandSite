@@ -10,11 +10,17 @@
     line-height: 52px;
     height: 52px;
     box-sizing: border-box;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 
 .nav-btn:hover{
     border-color: white;
     color: white;
+}
+
+@media screen and (max-width: 767px) {
+    .nav-btn{
+        margin-left: 0px;
+    }
 }

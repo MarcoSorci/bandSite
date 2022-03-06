@@ -6,3 +6,13 @@ header{
     padding: 50px;
     flex-direction: column;
 }
+header img{
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 767px) {
+    header img{
+        width: 260px;
+    }
+}

@@ -17,3 +17,16 @@
     line-height: 28px;
     font-size: 18px;
 }
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .anniversary{
+    font-size: 18.28px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    }
+}
